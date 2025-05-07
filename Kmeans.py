@@ -21,16 +21,26 @@ for i in range(1,21):
     inertia[i-1] = kmeans.inertia_
 
 plt.plot(range(1,21), inertia)
+plt.savefig("Images/Inertia Graph.png")
 plt.show()
 
+fig.clear()
+fig = plt.figure()
 ax = fig.add_subplot(projection='3d')
 
-# 9 was chosen as it was chosen as the elbow in the elbow graph
-kmeans = KMeans(n_clusters=9)
+# 6 was chosen as it was chosen as the elbow in the elbow graph
+kmeans = KMeans(n_clusters=6)
 kmeans.fit(points)
+
+# Add interactivity so that the figure can be saved.
+def save_fig(event):
+    if event.key == 's':
+        plt.savefig("Images/Test Figure.png")
+        print("Figure Saved!")
 
 # Plot the kmeans results
 p.plot_clusters(points, kmeans, ax)
 ax.set_aspect('equal')
 plt.legend(prop={'size' : 5}, bbox_to_anchor=(0, 1))
+fig.canvas.mpl_connect('key_press_event', save_fig)
 plt.show()

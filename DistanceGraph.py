@@ -28,4 +28,5 @@ distances = np.sort(distances[:, -1])
 
 # Plot the distance graph
 plt.plot(distances)
+plt.savefig("Images/DistanceGraphDBSCAN.png")
 plt.show()

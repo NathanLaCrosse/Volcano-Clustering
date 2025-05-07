@@ -20,7 +20,7 @@ points = p.gen_sphere_projection(X)
 clstr = DBSCAN(p=6, eps=0.11)
 clstr.fit(points)
 
-# rReset plot and add a globe to it
+# rReset plot
 fig.clear()
 ax = fig.add_subplot(projection='3d')
 
@@ -30,8 +30,15 @@ p.plot_clusters(points, clstr, ax)
 # Plot the noise separately
 p.plot_noise(points, clstr, ax)
 
+# Add interactivity so that the figure can be saved.
+def save_fig(event):
+    if event.key == 's':
+        plt.savefig("Images/Test Figure.png")
+        print("Figure Saved!")
+
 ax.set_aspect('equal')
 plt.legend(prop={'size' : 5}, bbox_to_anchor=(0, 1))
+fig.canvas.mpl_connect('key_press_event', save_fig)
 plt.show()
 
 

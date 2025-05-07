@@ -1,5 +1,5 @@
 # Volcano-Clustering
-This repository explores applying clustering algorithms to create a ring of fire cluster.
+This repository explores applying clustering algorithms to a problem of clustering volcanoes.
 
 Let's start with a what the dataset is. This dataset was obtained from the following kaggle link: https://www.kaggle.com/datasets/ramjasmaurya/volcanoes-on-earth-in-2021.
 The two features of interest for this repository are the latitude and longitude coordinates of each volcano on earth (in 2021). The goal is simple: create clusters of these
@@ -26,4 +26,13 @@ set the number of points to be 2 * N, where N is the number of dimensions. Since
 different there is graphing support for that.
 
 Onto DBSCAN's second paramter, we need to determine how close a point has to be to another point for the two to be close together. To do this, we create a graph that shows
-how many points can be connected together for a given maximum distance.
+how many points can be connected together for a given maximum distance. We are looking for the "elbow" in this graph, right before a jump where suddenly a majority of 
+points will be classified as "dense". We want to have defined clusters but also don't want to cluster everything - we expect some noise, mainly due to magma plume 
+volcanoes. Let's look at the graph:
+
+![DistanceGraphDBSCAN](https://github.com/user-attachments/assets/230c5ab6-3aa6-45d1-b936-6f58daa0626b)
+
+Given this graph, I chose a maximum distance of epsilon=0.11 to determine density.
+
+Now to the results - does this model produce a result that makes sense? Here are two screenshots from the resulting 3D plot:
+

@@ -12,7 +12,7 @@ points = p.gen_sphere_projection(X)
 
 # For each amount of clusters, display the inertia of the clustering
 # By definition, inertia will always decrease, so we're looking for where that rate of change
-# is slowing down, which is around n_clusters=9
+# is slowing down, which is around n_clusters=6
 inertia = np.zeros(20)
 for i in range(1,21):
     kmeans = KMeans(n_clusters=i)
@@ -21,6 +21,8 @@ for i in range(1,21):
     inertia[i-1] = kmeans.inertia_
 
 plt.plot(range(1,21), inertia)
+plt.xlabel("Number of Clusters")
+plt.ylabel("Inertia")
 plt.savefig("Images/Inertia Graph.png")
 plt.show()
 

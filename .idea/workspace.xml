@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ef116d-3d3c-4ee1-92a6-36cb37fc5249" name="Changes" comment="Added interactivity and cleaned up the documentation.">
+    <list default="true" id="10ef116d-3d3c-4ee1-92a6-36cb37fc5249" name="Changes" comment="Added an image to demonstrate sphere projection.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBScan.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBScan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceGraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/DistanceGraphDBSCAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/DistanceGraphDBSCAN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Inertia Graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Inertia Graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -79,11 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1746645295040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added an image to demonstrate sphere projection.">
+      <option name="closed" value="true" />
+      <created>1746647775341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746647775341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added interactivity and cleaned up the documentation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added interactivity and cleaned up the documentation." />
+    <MESSAGE value="Added an image to demonstrate sphere projection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an image to demonstrate sphere projection." />
   </component>
 </project>

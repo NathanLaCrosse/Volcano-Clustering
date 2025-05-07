@@ -28,5 +28,7 @@ distances = np.sort(distances[:, -1])
 
 # Plot the distance graph
 plt.plot(distances)
+plt.xlabel("Number of Points Within Epsilon")
+plt.ylabel("Epsilon")
 plt.savefig("Images/DistanceGraphDBSCAN.png")
 plt.show()

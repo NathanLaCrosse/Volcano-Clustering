@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ef116d-3d3c-4ee1-92a6-36cb37fc5249" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="10ef116d-3d3c-4ee1-92a6-36cb37fc5249" name="Changes" comment="Added interactivity and cleaned up the documentation.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBScan.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBScan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DistanceGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +63,27 @@
       <option name="presentableId" value="Default" />
       <updated>1746561653492</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added interactivity and cleaned up the documentation.">
+      <option name="closed" value="true" />
+      <created>1746645274351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746645274351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added interactivity and cleaned up the documentation.">
+      <option name="closed" value="true" />
+      <created>1746645295040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746645295040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added interactivity and cleaned up the documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added interactivity and cleaned up the documentation." />
   </component>
 </project>

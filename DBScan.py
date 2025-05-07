@@ -41,4 +41,3 @@ plt.legend(prop={'size' : 5}, bbox_to_anchor=(0, 1))
 fig.canvas.mpl_connect('key_press_event', save_fig)
 plt.show()
 
-
